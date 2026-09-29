@@ -9,5 +9,5 @@ export default defineConfig([
     extends: ["js/recommended"],
     languageOptions: { globals: globals.node },
   },
-  globalIgnores(["dist/", "node_modules/"]),
+  globalIgnores(["node_modules/"]),
 ]);
