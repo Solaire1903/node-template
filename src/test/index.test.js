@@ -1,5 +1,5 @@
 import helloWorld from "../index.js";
 
-test("Function got properly imported", () => {
+test("Function exists", () => {
   expect(helloWorld).toBeDefined();
 });
