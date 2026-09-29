@@ -15,7 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint",
+    "format": "prettier . --write"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
