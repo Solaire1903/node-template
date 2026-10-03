@@ -15,7 +15,7 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node ./src/main.js",
     "test": "jest",
     "lint": "eslint",
     "format": "prettier . --write"
